@@ -60,7 +60,7 @@ ul {
 
 .btn-pill {
     background-color: var(--accent-color);
-    color: #1A1A1A; /* Always dark text on the green button */
+    color: #1A1A1A; 
     padding: 0.75rem 1.5rem;
     border-radius: 50px;
     border: none;
@@ -132,8 +132,6 @@ ul {
 
 .delay-100 { transition-delay: 0.1s; }
 .delay-200 { transition-delay: 0.2s; }
-
-/* Removed media query for navbar bg as it's handled by class now */
 
 .navbar .container {
     display: flex;
@@ -278,7 +276,6 @@ ul {
     background-color: var(--white);
 }
 
-/* Removed media query for comparison bg */
 
 .comparison-table {
     margin-top: 2rem;
