@@ -1,0 +1,52 @@
+:root {
+    /* Colors - Light Mode (Default) */
+    --bg-color: #F3F1EB; /* Cream/Beige background */
+    --text-color: #1A1A1A;
+    --accent-color: #D4E7C5; /* Soft Green */
+    --accent-dark: #99B080;
+    --white: #FFFFFF;
+    --border-color: #E5E5E5;
+    
+    /* Fonts */
+    --font-main: 'Inter', sans-serif;
+    --font-display: 'Playfair Display', serif;
+    
+    /* Spacing */
+    --container-padding: 1.5rem;
+    --max-width: 1200px;
+}
+
+
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    line-height: 1.5;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
